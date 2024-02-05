@@ -1,0 +1,33 @@
+.navbarh {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logoh {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3%;
+  }
+  
+  .nav-listh {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+    padding-right: 12cm;
+    cursor: pointer;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0;
+  }
+
