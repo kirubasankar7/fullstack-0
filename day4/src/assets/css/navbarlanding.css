@@ -1,0 +1,27 @@
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .Navbar nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .Navbar nav-list li {
+    cursor: pointer;
+    padding-right: 10%;
+  }
+  
+  .Navbar nav-list li:last-child {
+    margin-right: 0;
+  }
